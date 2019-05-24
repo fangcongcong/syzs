@@ -1,0 +1,67 @@
+html,body{
+	font-family: PingFang-SC-Regular;
+}
+.banner-wrapper{
+	width: 100%;
+	display: block;
+}
+.banner-wrapper img{
+	width: 100%;
+	height: auto;
+}
+.container{
+	overflow: hidden;
+	padding: 0.32rem;
+	background: #FFE918;
+}
+.container .address-box{
+	padding: 0.36rem 0.36rem;
+	background: #333333;
+	border-radius: 4px;
+}
+.container .address-box .address-header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-family: JZunYuan;
+	font-size: 0.28rem;
+	color: #999999;
+	text-align: center;
+}
+.address-header .item{
+	-webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.address-header .area,.address-list .area{
+	width:50px;
+	text-align: left;
+}
+.address-list{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-family: JZunYuan;
+	font-size: 0.26rem;
+	color: #FFFFFF;
+	padding: 0.2rem 0rem;
+	position: relative;
+}
+.address-list:after{
+	content: '';
+	position: absolute;
+	bottom: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 1px;
+	opacity: 0.1;
+	background: #F1F3F3;
+	border-radius: 0.5px;
+}
+
+.address-list .item{
+	-webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+	text-align: center;
+}

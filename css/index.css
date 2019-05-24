@@ -1,0 +1,154 @@
+html,body{
+	font-family: PingFang-SC-Regular;
+	background: #FFE918;
+}
+.banner-wrapper{
+	width: 100%;
+	display: block;
+}
+.banner-wrapper img{
+	width: 100%;
+	height: auto;
+}
+.container{
+	overflow: hidden;
+	padding: 0.32rem;
+	background: #FFE918;
+	position: relative;
+}
+.container .form-box{
+	padding: 0.36rem 0rem;
+	background: #333333;
+	border-radius: 4px;
+	position: relative;
+}
+.container .form-box .square{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	position: absolute;
+	right: -0.1rem;
+	top: 1.5rem;
+	opacity: 0.05;
+	-webkit-transform: rotate(-315deg);
+    -ms-transform: rotate(-315deg);
+    transform: rotate(-315deg);
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+.container .form-box .square.square01{
+	width: 0.74rem;
+	height: 0.74rem;
+	top: 7.96rem;
+	right: -0.35rem;
+}
+.container .form-box .square.square02{
+	width: 0.54rem;
+	height: 0.54rem;
+	top: 8.2rem;
+	left: 0.2rem;
+}
+.container .form-box .form-title{
+	text-align: center;
+}
+.container .form-box .form-title .name{
+	font-size: 0.32rem;
+	color: #FFEB00;
+	position: relative;
+}
+.container .form-box .form-title .name:before{
+	content: '';
+	position: absolute;
+	left: -1.1rem;
+	top: 50%;
+	-webkit-transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    transform: translate(0%,-50%);
+	width: 0.8rem;
+	height: 0.02rem;
+	background: #FFEB00;
+}
+.container .form-box .form-title .name:after{
+	content: '';
+	position: absolute;
+	right: -1.1rem;
+	top: 50%;
+	-webkit-transform: translate(0%,-50%);
+	-ms-transform: translate(0%,-50%);
+	transform: translate(0%,-50%);
+	width: 0.8rem;
+	height: 0.02rem;
+	background: #FFEB00;
+}
+.container .form-box .input-item{
+	padding:0.32rem 0.36rem 0rem 0.36rem;
+}
+.input-item .name{
+	font-size: 0.28rem;
+	color: #FFFFFF;
+	padding-left: 0.1rem;
+	padding-bottom: 0.2rem;
+}
+.input-item .input-box{
+	padding-left: 0.1rem;
+	position: relative;
+}
+.input-item .input-box:after{
+	content: '';
+	position: absolute;
+	bottom: 0rem;
+	left: 0rem;
+	width: 100%;
+	height: 1px;
+	opacity: 0.1;
+	background: #F1F3F3;
+	border-radius: 0.5px;
+}
+.input-item .name .red{
+	color: red;
+	margin-right: 0.1rem;
+}
+.input-item .input-box input{
+	width: 100%;
+	background: none;
+	outline: none;
+	border: none;
+	font-size: 0.28rem;
+	line-height:0.4rem;
+	color: #999999;
+	margin-bottom: 0.12rem;
+}
+.input-item .btn{
+	line-height: 0.72rem;
+	font-size: 0.32rem;
+	color: #000000;
+	text-align: center;
+	background: #FFE918;
+	border-radius: 0.4rem;
+}
+.input-item .explain{
+	padding: 0.2rem 0.2rem;
+	font-size:0.24rem ;
+	color: #FFFFFF;
+	text-align: center;
+}
+.tip-box{
+	width: 100%;
+	height: 1rem;
+	position: absolute;
+	left: 0rem;
+	bottom: 1.9rem;
+	z-index: 2;
+}
+.tip-box .tip-background-img{
+	margin: 0rem 0.23rem;
+	height: 1.12rem;
+	background: url(../images/tip_bg@3x.png) no-repeat;
+	background-size: 100%,1.12rem;
+}
+.tip-box .tip-background-img .tip-text{
+	padding: 0.18rem 0.35rem;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: left;
+}
